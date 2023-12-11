@@ -1,0 +1,210 @@
+.background-custom
+{
+    background-color: #4e4e4e;
+    /* background-color: white; */
+    height: 100vh;
+    margin: 0;
+    padding: 0
+}
+
+.image-custom
+{
+    width: 75%;
+    aspect-ratio: 1 x 1;
+}
+
+.container-project
+{
+    position: relative;
+}
+
+.columns
+{
+    column-count: 3;
+    column-rule: 2px solid #000000;
+    column-gap: 50px;
+    position: absolute;
+    margin-top: 5%;
+    margin-bottom: 95%;
+    top: 50%;
+}
+
+.h1-custom
+{
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+}
+
+.h4-custom
+{
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    color: white;
+}
+
+.p-custom
+{
+    margin-top: 0;
+    text-shadow: 3px 5px 5px black;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+    word-wrap: break-word;
+}
+
+.p-custom a
+{
+    color: black;
+}
+
+.p-custom a:hover
+{
+    color:white;
+    background-color: #131313;
+}
+
+.form-custom
+{
+    text-align: center;
+    display: grid;
+    grid-row-gap: 15px;
+}
+
+.center
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.center-project
+{
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    left: 33.33%;
+    right: 33.33%;
+}
+
+
+.left-project
+{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    left:16.67%;
+}
+
+.right-project
+{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    right:16.67%;
+}
+
+.text-field-custom
+{
+    text-align: center;
+    min-height: 2em;
+    width: 100%;
+    background-color: #131313;
+    color: white;
+}
+
+.hide
+{
+    display: none;
+}
+
+.btn
+{
+    padding: 10%;
+    margin: 3px;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+.navTop
+{
+    background-color: #131313;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+    left: 0;
+}
+
+.navTop a
+{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.navTop li:hover
+{
+    background-color: #414141;
+}
+
+.navTop ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navBottom
+{
+    background-color: #131313;
+    position: fixed;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+    bottom: 0;
+    left: 0;
+}
+
+.navBottom a
+{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.navBottom li:hover
+{
+    background-color: #414141;
+}
+
+.navBottom ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
